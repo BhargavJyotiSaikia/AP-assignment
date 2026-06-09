@@ -1,11 +1,7 @@
-# AP Assignments
+# Write a c program for three different operations as stated in question 1 to analyze the space complexity.
+ 
+**Author:** Bhargav Jyoti Saikia
+ 
+## Description
 
-Name: Bhargav Jyoti Saikia
-Roll No: CSB24022
-
-Assignments are organized into separate branches:
-
-- assignment1
-- assignment2
-...
-- assignment19
+## Assignment 2
