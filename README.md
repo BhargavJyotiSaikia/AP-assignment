@@ -1,11 +1,4 @@
-# AP Assignments
+# Write a Java program using ArrayList to store book titles.
 
-Name: Bhargav Jyoti Saikia
-Roll No: CSB24022
+Add at least 5 books and search for books whose title contains a given word
 
-Assignments are organized into separate branches:
-
-- assignment1
-- assignment2
-...
-- assignment19
