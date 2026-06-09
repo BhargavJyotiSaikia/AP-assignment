@@ -129,6 +129,8 @@ echo
 echo "Current Branch:"
 git branch
 
+echo "gitpush.sh" >> .gitignore
+
 echo
 echo "Adding files..."
 git add README.md "$CODE_FILE"
