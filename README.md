@@ -1,11 +1,4 @@
-# AP Assignments
+# Create a Python program using a list and dictionary to store products with name and stock quantity.
 
-Name: Bhargav Jyoti Saikia
-Roll No: CSB24022
+Display all products whose stock is less than 10.
 
-Assignments are organized into separate branches:
-
-- assignment1
-- assignment2
-...
-- assignment19
