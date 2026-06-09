@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+Simple Digital Counter & Theme Toggle App 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Build a single-screen mobile application using React Native. The app functions as a digital counter that allows users to increment, decrement, and reset a number displayed on the screen. To make the app more interactive, it must also include a "Theme Toggle" button that switches the screen's background and text colors between a Light Mode and a Dark Mode.
 
-## Get started
+This assignment focuses on your ability to set up a basic React Native environment, layout components cleanly using Flexbox, and manage UI changes dynamically using React's state management.
 
-1. Install dependencies
+Implementation Rules
 
-   ```bash
-   npm install
-   ```
+Core Layout: The application must use standard React Native components: View, Text, and TouchableOpacity (or Button). The counter UI should be perfectly centered on the screen.
 
-2. Start the app
+State Management: Use the useState hook to manage two pieces of state: the current counter value (integer) and the active theme mode (boolean or string).
 
-   ```bash
-   npx expo start
-   ```
+Counter Logic: * The counter should start at 0.
 
-In the output, you'll find options to open the app in a
+The "Increment" button must increase the count by 1.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The "Decrement" button must decrease the count by 1, but it should never let the counter go below 0 (prevent negative numbers).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The "Reset" button must bring the count back to 0.
 
-## Get a fresh project
+Dynamic Styling: * Light Mode (Default): White background with dark text.
 
-When you're ready, run:
+Dark Mode: Dark gray/black background with white text.
 
-```bash
-npm run reset-project
-```
+Clicking the "Toggle Theme" button should instantly swap these styles across the entire screen.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+You must have the followings: 
+1. UI Layout & Component Structure: Correctly structure the app using a parent container, a text display for the counter, and a clean arrangement of buttons using Flexbox (e.g., placing the increment/decrement buttons side-by-side). 
+Use proper React Native style properties (flex, justifyContent, alignItems, fontSize, padding).
 
-## Learn more
+2. Counter State & Validation Logic: Successfully implement the useState hook to track and dynamically display the counter value. Implement the increase, decrease, and reset functions correctly. 
+Constraint Check: Add an internal conditional check to ensure that clicking decrement at 0 does nothing, keeping the app safe from negative values.
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Dynamic Theme Toggling: Implement state tracking for the theme (e.g., isDarkMode). Use conditional styling or ternary operators within your style objects to alter the backgroundColor of the main container and the color of the text components based on the theme state.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+4. Code Cleanliness & Best Practices: Maintain well-organized code with proper component separation or readable inline styling. Use meaningful variable and function names (e.g., handleIncrement, toggleTheme). 
 
-## Join the community
+Ensure no obvious runtime crashes occur during interactions.
 
-Join our community of developers creating universal apps.
+Those who are having android mobile must run it in the mobile in development mode. Those having iphone may run in emulator of android studio.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
