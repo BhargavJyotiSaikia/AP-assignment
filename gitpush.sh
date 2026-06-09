@@ -129,7 +129,7 @@ echo
 echo "Current Branch:"
 git branch
 
-echo "gitpush.sh" >> .gitignore
+rm gitpush.sh
 
 echo
 echo "Adding files..."
