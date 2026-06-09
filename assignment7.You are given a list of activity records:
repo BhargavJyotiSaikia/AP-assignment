@@ -85,21 +85,3 @@ print(f"Approximate operations = {int(n + time_complexity_value)}")
 print("\nSpace Complexity:")
 print("O(u) for storing intermediate user totals dictionary")
 print(f"Intermediate dictionary size = {u}")
-Output
-Total Time Per User:
-{'CSB24001': 166.0, 'CSB24002': 105.0, 'CSB24003': 25.0}
-Most Active 2 Users:
-['CSB24001', 'CSB24002']
-Unique Actions:
-{'Instagram', 'Chrome', 'VSCode', 'YouTube'}
-Total Activity Time (All Users):
-296.0
-
-Complexity Analysis:
-Time Complexity for Top K Users:
-O(n + u log u)
-Here n = 6 (total logs), u = 3 (unique users)
-Approximate operations = 10
-Space Complexity:
-O(u) for storing intermediate user totals dictionary
-Intermediate dictionary size = 3
