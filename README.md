@@ -1,11 +1,7 @@
-# AP Assignments
+# Develop a student performance analyzer in Java. You are given a list of students of your batch. Each student has:
 
-Name: Bhargav Jyoti Saikia
-Roll No: CSB24022
+id (int) //don't include CSB string
+name (String)
+courses (List<String>)
+scores (Map<String, Integer>) where key = course, value = marks
 
-Assignments are organized into separate branches:
-
-- assignment1
-- assignment2
-...
-- assignment19
